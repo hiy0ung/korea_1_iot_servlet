@@ -115,6 +115,4 @@ public class UserServlet extends HttpServlet {
         userDao.deleteUser(id);
         response.sendRedirect("list");
     }
-
-
 }
